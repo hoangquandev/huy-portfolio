@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  background-color: #0f0f0f;
+}
+
+.mask {
+  mask-image: url('./assets/mask.svg');
+  mask-repeat: no-repeat;
+  mask-size: 40px;
+  /* background: transparent; */
+  background: #ec4e39;
+  position: absolute;
+  color: black;
+}
